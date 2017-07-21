@@ -11,8 +11,10 @@
 // about supported directives.
 //
 
-//= require rails-ujs
+*= require rails-ujs
 *= require jquery
+*= require jquery_ujs
+*= require jquery-ui/datepicker
 *= require_self
 *= require bootstrap-sprockets
 *= require turbolinks

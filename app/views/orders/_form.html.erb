@@ -65,6 +65,13 @@
     <%= form.text_field :customerNotes, id: :order_customerNotes, :size => 100 %>
   </div>
 </div>
+<div class="form-group">
+  <label for="formGroupExampleInput">Expected Payment Date</label>
+  <div class="field">
+    <%= form.text_field :expectedPaymentDate, id: :order_expectedPaymentDate %>
+  </div>
+</div>
+
 
   <div class="actions" class="label label-default">
     <%= form.submit %>

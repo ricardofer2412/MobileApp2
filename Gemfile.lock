@@ -75,6 +75,8 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    jquery-ui-rails (6.0.1)
+      railties (>= 3.2.16)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.6)
@@ -181,6 +183,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
+  jquery-ui-rails
   puma (~> 3.7)
   rails (~> 5.1.2)
   sass-rails (~> 5.0)
